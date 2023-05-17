@@ -1,0 +1,98 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://skct.edu.in/v1/images/portfolio/8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0.8x 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(85, 24, 24, 0.3);
+    border-top: 1px solid rgba(116, 10, 10, 0.3);
+    margin: 50px;
+}
+form::after{
+    content: '';
+    position: absolute;
+    bottom: 3%;
+    right: 32%;
+    width: 120px;
+    height: 120px;
+    background: magenta;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+
+h1{
+   font-size: 50px;
+   text-align: center;
+   color: rgb(9, 169, 4);
+   text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+   letter-spacing: 3px;
+   margin-top: 5%;
+   opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: rgb(25, 0, 249);
+    margin-left: 10%;
+    opacity: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(68, 0, 255);
+    border-bottom: 1px solid rgba(106, 16, 16, 0.6);
+    opacity: .6;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: rgb(51, 0, 255);
+    font-size: 15px;
+    opacity:.7;
+    background:  rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(0, 119, 34);
+    opacity: .7;
+}
+fieldset{
+    background-color: rgb(254, 254, 247);
+}
+
+
